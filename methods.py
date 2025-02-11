@@ -15,7 +15,7 @@ from transformers import get_scheduler
 from transformers import  BertForNextSentencePrediction
 from transformers import pipeline
 from transformers_interpret import SequenceClassificationExplainer
-from datasets import load_metric
+#from datasets import load_metric
 
 from build_model.build_ml import seed_everything,tokenize_function,collate_function,build_optimizer,train_one_epoch_without_mask,test_without_mask,get_data_loader
 from data_preprocessing.processing import build_few_shot_samples, data_prep
